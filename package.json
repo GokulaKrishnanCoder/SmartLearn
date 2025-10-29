@@ -1,0 +1,13 @@
+{
+  "name": "my-online-course-app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "backend": "cd Backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
